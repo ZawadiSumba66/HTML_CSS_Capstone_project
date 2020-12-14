@@ -1,0 +1,227 @@
+.main_nav{
+  height: 50px;
+  width: 100%;
+}
+
+.nav_heading {
+  font-size: 1.3rem;
+}
+
+.nav_side p {
+  color: var(--gray-400);
+  font-size: 0.8rem;
+}
+
+.nav_side a {
+  color: black;
+}
+
+
+
+.nav_side {
+  margin-top: 80px;
+  position: fixed;
+  padding-left: 10px;
+}
+
+.nav_side p {
+  padding-top: 2rem;
+}
+
+.nav_side img {
+  border-radius: 50%;
+  width: 60px;
+}
+
+.middle_section input {
+  border: 1px solid var(--border-gray);
+  width: 300px;
+  border-radius: 20px;
+  padding: 10px;
+  height: 30px;
+}
+
+.left_side a{
+  text-decoration: none;
+  color: black;
+  padding-bottom: 10px;
+}
+
+ul li {
+    list-style: none;
+}
+
+.left_side ul a:hover {
+  border-bottom: 3px solid black;
+}
+
+.right_side {
+  right: 30px;
+}
+
+.btn{
+  border-radius: 20px; 
+}
+
+.log_in {
+  border: 1px solid var(--border-gray);
+}
+
+.jacaranda_body {
+  margin-right: 150px;
+  margin-left: 150px;
+  background-color: #f3f3f3;
+}
+
+.all_jacaranda {
+  border: 1px solid var(--gray-300);
+}
+
+.top_section img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.followers p a {
+  text-decoration: none;
+  color: black;
+}
+
+.mainj_text p{
+  font-size: 0.8rem;
+}
+
+.main_jacaranda {
+  display: flex;
+  justify-content: center;
+}
+
+footer p {
+  font-size: 0.8rem;
+}
+
+footer p span {
+  color: var(--gray-300);
+}
+
+.main_jacaranda >div{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.mainj_image img{
+  width: 100%;
+  height: 70vh;
+}
+
+.location_image img{
+  width: 80%;
+  height: 70vh;
+}
+
+.rwd_image_2 img {
+  width: 100%;
+  height: 70vh;
+}
+
+.maps_image img {
+  width: 100%;
+}
+
+.jacaranda_logo img{
+  height: 50vh;
+}
+
+.jacaranda_envelope_1 {
+  padding:3rem;
+  border: 1px solid;
+  box-shadow: 10px 10px 8px 10px #888888;
+  margin-bottom: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.jacaranda_envelope_1 p{
+  font-size: 1.3rem;
+  color: var(--gray-400);
+  line-height: 10px;
+}
+
+.envelope_2 {
+ float: right;
+}
+
+.carousel_section {
+  height: 100vh;
+}
+
+.carousel_heading .fa-thumbs-up {
+  color: #fff;
+  background-color:  blue;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.carousel-item img{
+  width: 350px;
+}
+
+.conversation {
+  height: 30vh;
+}
+
+.conversation h1 {
+  font-size: 1.5rem;
+}
+
+.conversation i {
+  padding-left: 10px;
+}
+
+.conversation .fa-facebook {
+  font-size: 1.5rem;
+}
+
+.right_section {
+  height: 200vh;
+}
+
+.owners h3 {
+  font-size: 0.6rem;
+  color: var(--gray-400)
+}
+
+.owner_text p {
+  line-height: 20px;
+}
+.owner_1 {
+  padding: 1rem;
+}
+
+.owner_1 img {
+  width: 40px;
+  height: 40px;
+}
+
+.owners >h1>a {
+  color: black;
+}
+
+.owner_text >p>a {
+  color: black;
+}
+
+.date {
+  color: var(--gray-400)  
+}
+
+.link {
+  text-decoration: none;
+}
+
+.last_buttons .btn {
+  font-size: 0.5rem;
+  border: 1px solid var(--gray-400);
+  border-radius: 0;
+}
