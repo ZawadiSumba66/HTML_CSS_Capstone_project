@@ -125,12 +125,18 @@ footer p span {
   font-size: 0.8rem;
   text-align: center;
 }
-
+.service_1 button {
+  background-color: rgb(223, 10, 53);
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
 .mainj_image img{
   width: 100%;
   height: 70vh;
   position: relative;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1))
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1));
 }
 
 .search_holder {
