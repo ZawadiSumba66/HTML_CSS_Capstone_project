@@ -18,266 +18,135 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/css/styles.css">
     <link rel="stylesheet" href="styles/css/reset.css">
 </head>
 <body>
   <div class="main_nav mb-5">
-    <nav class="nav_section">
-        <div class="nav_1 bg-white align-items-center mb-3 px-3 d-flex justify-content-between">
+    <nav class="nav_section position-fixed w-100">
+        <div class="nav_1 align-items-center mb-3 px-3 d-flex justify-content-between pt-3 d-md-justify-content-start">
             <div class="left_side d-flex justify-content-between">
-              <span class="nav_heading font-weight-bold pr-3"><a href="#">Jacaranda</a></span>
-              <ul class=" pt-1 d-flex justify-content-between font-weight-bold">
-                  <li class="pr-3"><a href="#"> Search</a></li>
-                  <li><a href="#">Details</a></li>
-              </ul>
+              <span class="nav_heading font-weight-bold font-sm-small pr-3"><a href="#" class="text-light"><i class="fab fa-pagelines"></i>JacarandaSuites</a></span>
             </div>
-            <div class="middle_section">
-                <input class="search_bar" type="text" placeholder="Search...">
-            </div>
-            <div class="right_side d-flex align-items-center justify-content-between">
-                <div class="btns pr-4">
-                   <button class="btn font-weight-bold log_in mr-2">login</button>
-                   <button class="btn font-weight-bold sign_up btn-primary border-none">Sign up</button>
-                </div>
-               <img src="adobe-44195.svg" alt="">
+            <div class="right_side d-flex align-items-center"></div>
+                    <ul class=" d-lg-flex d-none justify-content-between font-weight-bold">
+                        <li class="pr-3 "><a class="text-light" href="index.html">Home</a></li>
+                        <li class="pr-3 "><a class="text-light" href="results.html"> Search</a></li>
+                        <li><a class="text-light" href="details.html">Details</a></li>
+                    </ul>
+                    <ul class=" d-lg-none d-flex justify-content-between font-weight-bold">
+                        <li class="pr-3 "><a class="text-light" href="index.html"><i class="fas fa-home"></i></a></li>
+                        <li class="pr-3 "><a class="text-light" href="results.html"><i class="fas fa-search"></i></a></li>
+                        <li><a class="text-light" href="details.html">Details</a></li>
+                    </ul>
             </div>
         </div>
     </nav>
   </div>
-  <div class="side_nav position-fixed">
-      <nav class=" float-right d-flex align-items-center justify-content-end flex-column nav_side ">
-          <img src="https://mir-s3-cdn-cf.behance.net/user/50/4325453069095.5d2c4a1b9e532.jpg" alt="">
-          <p>follow</p>
-          <a href="#"data-toggle="tooltip" title="
-          TOOLS
-          SmultronCodeIgniter"><i class="fas fa-tools"></i></a>
-          <p>Tools</p>
-          <a href="#" data-toggle="tooltip" title="Add to motherboard"><i class="fas fa-save"></i></a>
-          <p>save</p>
-         <a href="#"><i class="fas fa-thumbs-up pr-3"></i></a> 
-          <p>Appreciated</p>
-      </nav>
-  </div>
-    <div class="jacaranda_body">
-        <div class="top_section d-flex">
-            <img src="https://jacarandahotels.com/wp-content/uploads/2020/08/RT4A3534-720x430.jpg" alt="">
-            <div class="pl-3 top_section_text">
-                <h1 class="font-weight-bold">Jacaranda SuitesKE</h1>
-                <div class="followers d-flex">
-                   <p class="pr-3"><a href="#"data-toggle="tooltip" data-placement="bottom" title="Henry Njoroge and Matthew Makeba " content="CEO">Mutiple Owners ▾</a></p> 
-                   <p><a href="#">Follow all</a></p>
-                </div> 
-            </div>
-        </div>
-        <div class="all_jacaranda mb-5">
-        <div class="main_jacaranda  bg-white  w-100 d-flex flex-column justify-content-center">
-            <div class="mainj_text py-5">
-               <p>Jacaranda Suites is a web app that makes easier booking of hotel services online.Our clients can now book for services at he comfort of their homes!
+    <div class="jacaranda_body w-md-80 w-sm-70">
+     <div class="all_jacaranda ">
+        <div class="main_jacaranda  bg-white w-md-50  w-100 d-flex flex-column justify-content-center">
+            <div class="mainj_text py-3">
+                <hr> <h1 class="d-flex justify-content-center head_one"> Welcome to Jacaranda Hotel</h1> <hr>
+               <p class="text-normal">Jacaranda Suites is a web app that makes easier booking of hotel services online.Our clients can now book for services at he comfort of their homes!
                </p>
             </div> 
-            <div class="mainj_image my-3">
-                <img src="https://cf.bstatic.com/xdata/images/hotel/square600/178974505.webp?k=20ba6ac15547405005f4084e8228a29a6c9eac3965bb4efd9d775b68034d04eb&o=" alt="">
+            <div class="mainj_image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm8jBLahP2baLwlcCzrMOkSyyvBL2StsQdAw&usqp=CAU" alt="">
+                 <div class="search_holder d-flex">
+                     <div>
+                     <input type="text"class="pl-3 w-30">
+                    </div>
+                     <div>
+                     <button>SEARCH</button>
+                    </div>
+                 </div>
             </div>  
-            <div class="form_image mx-5 my-3 d-flex justify-content-center">
-                <img src="https://i.pinimg.com/originals/ff/94/f3/ff94f3863732ea767e8c212670569451.png" alt="">
+            <form action="" class="w-70">
+                <h1 class="font-weight-bold text-light text-uppercase">Talk with us today</h1><br>
+                <label for="name">Name</label><br>
+                <input class="text"type="name"><br>
+                <label for="username">Username</label><br>
+                <input type="username"><br>
+                <label for="email">Email</label><br>
+                <input type="email"><br>
+                <label for="password">Password</label><br>
+                <input type="password"><br>
+                <label for="number">Phone number</label><br>
+                <input type="number"><br><br>
+                <button class="btn btn-light font-weight-bold">SUBMIT</button><br>
+                <p class="font-italic pt-3"> Jacranda, the place to be</p>
+            </form>
+            <h1 class="text-uppercase d-flex justify-content-center service_head"><hr>Expolore Jacaranda Suites, Nairobi<hr></h1>
+            <div class="services pb-3 w-80 d-flex justify-content-center">
+                <div class="services_main">
+                    <div class="service_1">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFGAlaVQxUQg3ETVkM8KLrKXh_JecgWV7enQ&usqp=CAU" alt="">
+                        <h1 class="font-weight-light text-uppercase pt-3">The Spa</h1>
+                        <hr class="w-50">
+                        <p class="service_text">Enjoy a peaceful body massage at our spa</p>
+                    </div>
+                    <div class="service_1">
+                        <img src="images/images (4).jpeg" alt="">
+                        <h1 class="font-weight-light text-uppercase pt-3">Mouth watering delicacies</h1>
+                        <hr class="w-50">
+                        <p class="service_text">Get to taste different cuisines at Jacaranda</p>
+                    </div>
+                    <div class="service_1">
+                        <img src="images/download (5).jpeg" alt="">
+                        <h1 class="font-weight-light text-uppercase pt-3">Bonfire adventures</h1>
+                        <hr class="w-50">
+                        <p class="service_text">Need some warmth in that evening breeze, You got it</p>
+                    </div>
+                    <div class="service_1">
+                        <img src="images/download (6).jpeg" alt="">
+                        <h1 class="font-weight-light text-uppercase pt-3">Hot water pools</h1>
+                        <hr class="w-50">
+                        <p class="service_text">Take a hot water bath at our heated pools</p>
+                    </div>
+                    <div class="service_1">
+                        <img src="images/download (7).jpeg" alt="">
+                        <h1 class="font-weight-light text-uppercase pt-3">Well furnished rooms</h1>
+                        <hr class="w-50">
+                        <p class="service_text">After a long day,Relax!!</p>
+                    </div>
+                    <div class="service_1">
+                        <img src="images/images (5).jpeg" alt="">
+                        <h1 class="font-weight-light text-uppercase pt-3">Lounges and Bars</h1>
+                        <hr class="w-50">
+                        <p class="service_text">Have a drink and chill</p>
+                    </div>
+                </div>
             </div>
-            <div class="large_screen_text my-5">
-                <h1 class="font-weight-bold font-italic">For large screens</h1>
-            </div>
-            <div class="location_image ">
-                <img src="https://cdn.jotfor.ms/form-templates/screenshots/legacy/325x400_31034468723856/hotel-room-reservation-form.png?v=1607720591" alt="">
-            </div>
-            <div class="rwd_image_1">
-                <img src="https://s3.amazonaws.com/planyo-extras/website/img/planyo-landing-hotel.jpg" alt="">
-            </div>
-            <div class="rwd_image_2">
-                <h1 class="font-weight-bold font-italic">Responsive design</h1>
-                <img src="https://cdn.apkmonk.com/images/com.app_jacarandanairobi.layout.png" alt="">
-            </div>
-            <div class="maps_image">
-                <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/2ad6c625563385.563475473b651.png" alt="">
-            </div>
-            <div class="jacaranda_logo d-flex justify-content-center">
-                <h1 class="font-weight-bold font-italic">The colateral</h1>
-                <img class="w-50" src="https://www.segalfamilyfoundation.org/wp-content/uploads/2016/10/jacaranda.jpg" alt="">
-            </div>
-            <div class="jacaranda_envelope_1 d-flex flex-column w-70 justify-content-center mt-5">
-                <div class="envelope_heading pb-5">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ2Ng_xQ5xQZhZdQBy53tY_NR54e5LE6NaVQ&usqp=CAU" alt="">
-                </div>    
-                <p class="font-weight-bold">PHONE: +25482116674</p>
-                <p class="font-weight-bold">jacarandasuites@gmail.com</p>
-                <p class="font-weight-bold">www.jacaranda.com</p>
-            </div>
-            <div class="fall_image">
-                <img class="w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwxyAoHKOhmbHYHQlfCrsoYsXeleHZvq4Hxg&usqp=CAU" alt="">
-            </div>
-            <div class="jacaranda_envelope_1 envelope_2 my-5">
-                <p>PHONE: +25482116674</p>
-                <p>jacarandasuites@gmail.com</p>
-            </div>
-            <div class="jacaranda_logo d-flex justify-content-center">
-                <img src="https://www.segalfamilyfoundation.org/wp-content/uploads/2016/10/jacaranda.jpg" alt="">
-            </div>
-            <div class="last_jacaranda my-5">
-                <img class="w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtLDHnolfafhuI5hCBk4HCoVu1va6k0o3glg&usqp=CAU" alt="">
-            </div>
-            <div class="thanks_heading">
-                <h1 class="font-weight-bold d-flex justify-content-center">Thanks for watching</h1>
-            </div>
+            <p class="d-flex justify-content-center font-weight-bold">And so much more!!</p>
         </div>
-        <div class=" carousel_section bg-dark p-5">
-            <div class="carousel_heading d-flex justify-content-center ">
-                <i class="fas fa-thumbs-up"></i> 
-            </div>
-            <div class="carousel_text text-light d-flex justify-content-center py-4">
-               <h1 class="font-weight-bold">JacrandasuitesKE</h1>
-            </div>
-            <div class="carousel_icon d-flex text-light justify-content-center pb-3">
-                <i class="fas fa-thumbs-up pr-3"></i> 
-                <i class="fas fa-eye pr-3"></i>
-                <i class="far fa-comment-alt pr-3"></i>
-            </div>
-            <span class="d-flex text-light justify-content-center mb-5"> 4th April 2020</span>
-            <div id="demo" class="carousel slide d-flex justify-content-center" data-ride="carousel">
-                <ul class="carousel-indicators">
-                  <li data-target="#demo" data-slide-to="0" class="active"></li>
-                  <li data-target="#demo" data-slide-to="1"></li>
-                  <li data-target="#demo" data-slide-to="2"></li>
-                </ul>
-                <div class="carousel-inner mx-auto">
-                  <div class="carousel-item active">
-                    <img src="images/download (1).jpeg" alt="Los Angeles">
-                    <img src="images/download.jpeg" alt="">
-                    <img src="images/download (4).jpeg" alt="">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/download (2).jpeg" alt="Chicago">
-                    <img src="images/images.jpeg" alt="">
-                    <img src="images/images (1).jpeg" alt="">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/download (3).jpeg" alt="New York">
-                    <img src="images/images (2).jpeg" alt="">
-                    <img src="images/images (3).jpeg" alt="">
-                  </div>
-                </div>
-                <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                  <span class="carousel-control-prev-icon"></span>
-                </a>
-                <a class="carousel-control-next" href="#demo" data-slide="next">
-                  <span class="carousel-control-next-icon"></span>
-                </a>
-            </div>
-        </div>
-        <div class="sign_up_section pb-5 my-5 d-flex w-80 mx-5">
-            <div class="conversation bg-white p-4 col-8 mr-3">
-                <h1 class="font-weight-bold">Sign up to join the conversation</h1>
-                <p>Add your feedback for Rose Sumba's project by signing in or signing up.</p>
-                <button class="btn btn-primary">Sign up with email</button> or
-                <i class="fab fa-apple"></i>
-                <i class="fab fa-facebook"></i>
-                <i class="fab fa-google"></i>
-            </div>
-            <div class="right_section col-4">
-              <div class="owners p-3 mb-4  bg-white">
-                <h3>OWNERS</h3>
-                <div class="owner_1 d-flex justify-content-between  align-items-center">
-                   <img src="https://d.newsweek.com/en/full/1591836/jonathan-tobin.png?w=63&h=63&f=3de733b09b3c97b87933e4368ae4e559" alt="">
-                   <div class="owner_text flex-1">
-                       <p class="font-weight-bold">Henry Njoroge</p>
-                       <p>Nairobi,Kenya</p>
-                   </div>
-                   <div>
-                       <button class="btn btn-primary">follow</button>
-                   </div>
-                </div> 
-                <div class="owner_1 d-flex justify-content-between">
-                    <img src="https://d.newsweek.com/en/full/1591836/jonathan-tobin.png?w=63&h=63&f=3de733b09b3c97b87933e4368ae4e559" alt="">
-                    <div class="owner_text flex-1">
-                        <p class="font-weight-bold">Matthew Makeba </p>
-                        <p>Nairobi,Kenya</p>
-                    </div>
-                    <div>
-                        <button class="btn btn-primary">follow</button>
-                    </div>
-                </div>
-               </div>
-               <div class="owners p-3 mt-4  bg-white">
-                <h3>CREDITS</h3>
-                <div class="owner_1 d-flex justify-content-between">
-                   <img src="https://d.newsweek.com/en/full/1591836/jonathan-tobin.png?w=63&h=63&f=3de733b09b3c97b87933e4368ae4e559" alt="">
-                   <div class="owner_text">
-                       <p class="font-weight-bold">Henry Njoroge</p>
-                       <p>Nairobi,Kenya</p>
-                   </div>
-                   <div>
-                       <button class="btn btn-primary">follow</button>
-                   </div>
-                </div> 
-                <div class="owner_1 d-flex justify-content-between">
-                    <img src="https://d.newsweek.com/en/full/1591836/jonathan-tobin.png?w=63&h=63&f=3de733b09b3c97b87933e4368ae4e559" alt="">
-                    <div class="owner_text">
-                        <p class="font-weight-bold">Matthew Makeba </p>
-                        <p>Nairobi,Kenya</p>
-                    </div>
-                    <div>
-                        <button class="btn btn-primary">follow</button>
-                    </div>
-                </div>
-                <div class="owner_1 d-flex justify-content-between">
-                    <img src="https://d.newsweek.com/en/full/1591836/jonathan-tobin.png?w=63&h=63&f=3de733b09b3c97b87933e4368ae4e559" alt="">
-                    <div class="owner_text">
-                        <p class="font-weight-bold">Matthew Makeba </p>
-                        <p>Nairobi,Kenya</p>
-                    </div>
-                    <div>
-                        <button class="btn btn-primary">follow</button>
-                    </div>
-                </div>
-               </div>
-               <div class="owners p-3 mt-4 bg-white">
-                <h3>PROJECT MADE FOR</h3>
-                <div class="owner_1 d-flex ">
-                   <img  src="https://d.newsweek.com/en/full/1591836/jonathan-tobin.png?w=63&h=63&f=3de733b09b3c97b87933e4368ae4e559" alt="">
-                   <div class="owner_text pl-4">
-                       <p class="font-weight-bold">Jacaranda Hotels</p>
-                       <p>Nairobi,Kenya</p>
-                   </div>
-                </div> 
-               </div>
-               <div class="owners mt-4 bg-white">
-                <h3 class="font-weight-bold pt-3 px-3">JACARNDAKE</h3>
-                <div class="owner_1">
-                   <div class="owner_text">
-                       <p>Jacaranda app is a free user friendly digital platform that gives reliable, accurate and detailed information of particular Jacaranda hotels in Kenya.</p>
-                      <p><a href="#" class="link">Read more</a></p>
-                       <i class="fas fa-thumbs-up pr-1"></i>25
-                       <i class="fas fa-eye pr-1"></i>1.2k
-                       <i class="far fa-comment-alt pr-1"></i>100 <br><br>
-                       <p class="date">Published: April 23rd 2017</p>
-                   </div>
-                </div> 
-               </div>
-               <div class="owners p-3 bg-white mt-3">
-                <h3 class="font-weight-bold pt-3 px-3">TOOLS</h3>
-                <h1 class="font-weight-bold"><a href="#" class="link">Smultron CodeIgniter</a></h1>
-                <h3>CREATIVE FIELDS</h3>
-                <h1 class="font-weight-bold">HTML/CSS UX-DESIGN</h1>
-               </div> 
-               <div class="last_buttons mt-3 p-4 bg-white">
-                <button class="btn font-weight-bold">HOTELS</button>
-                <button class="btn font-weight-bold">SEARCH</button>
-               </div>
-            </div>
-        </div>
+     </div> 
+    </div>
+    <footer class="mt-3 d-flex justify-content-center bg-dark">
+        <div class="footer_details">
+      <div class="media_icons pb-3">
+            <a href="#"><i class="fa fa-facebook"></i></a> 
+            <a href="#"><i class="fa fa-twitter"></i></a> 
+            <a href="#"><i class="fab fa-youtube" ></i></a> 
+            <a href="#"><i class="fab fa-instagram-square"></i></a> 
+            <a href="#"><i class="fab fa-pinterest"></i></a> 
+            <a href="#"><i class="fas fa-rss"></i></a> 
+            <a href="#"><i class="fa fa-envelope"></i></a> 
+      </div>
+      <div class="last_footer">
+          <a href="#">EVENTS</a><span class="text-light">|</span>
+          <a href="#">BOOKINGS</a><span class="text-light">|</span>
+          <a href="#">RESERVATIONS</a><span class="text-light">|</span>
+          <a href="#">LOCATIONS</a> <span class="text-light">|</span>
+          <a href="#">CONTACT</a><span class="text-light">|</span>
+          <a href="#">FAQ</a><span class="text-light">|</span>
+      </div>
+      <div class="bottom_lower pt-2">
+        <span class="font-weight-bold text-light"><i class="fab fa-pagelines"></i>JACARANDA HOTELS KE</span>
       </div>
     </div>
-    <footer>
-        <div class="footer__text">
-           <p class="d-flex justify-content-start p-3 bg-white">More Jacaranda ▾ &nbsp; <span>|</span> &nbsp; English  ▾ &nbsp; <span>|</span> &nbsp; TOU &nbsp; Privacy &nbsp;Community  &nbsp;Help</p>
-        </div> 
     </footer>
 </body>
 </html>

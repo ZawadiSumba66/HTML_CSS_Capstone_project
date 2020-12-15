@@ -1,50 +1,22 @@
 .main_nav{
-  height: 50px;
+  height: 40px;
   width: 100%;
 }
 
+.nav_section {
+  background-color:rgb(223, 10, 53);
+  z-index: 10;
+}
+
 .nav_heading {
-  font-size: 1.3rem;
+  font-size: 1.7rem;
+  font-family: 'Lobster', cursive;
 }
 
-.nav_side p {
-  color: var(--gray-400);
-  font-size: 0.8rem;
-}
-
-.nav_side a {
-  color: black;
-}
-
-
-
-.nav_side {
-  margin-top: 80px;
-  position: fixed;
-  padding-left: 10px;
-}
-
-.nav_side p {
-  padding-top: 2rem;
-}
-
-.nav_side img {
-  border-radius: 50%;
-  width: 60px;
-}
-
-.middle_section input {
-  border: 1px solid var(--border-gray);
-  width: 300px;
-  border-radius: 20px;
-  padding: 10px;
-  height: 30px;
-}
 
 .left_side a{
   text-decoration: none;
   color: black;
-  padding-bottom: 10px;
 }
 
 ul li {
@@ -52,29 +24,49 @@ ul li {
 }
 
 .left_side ul a:hover {
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid white;
 }
 
 .right_side {
   right: 30px;
 }
 
-.btn{
-  border-radius: 20px; 
-}
-
-.log_in {
-  border: 1px solid var(--border-gray);
-}
-
 .jacaranda_body {
-  margin-right: 150px;
-  margin-left: 150px;
   background-color: #f3f3f3;
 }
 
 .all_jacaranda {
   border: 1px solid var(--gray-300);
+}
+
+form {
+  margin: 2rem auto;
+  text-align: center;
+  background-color: rgb(223, 10, 53);
+  border-radius: 10px;
+  width: 50%;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+label {
+  color: white;
+}
+
+input {
+  width: 400px;
+  height: 30px;
+}
+
+.services_main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.services_main img {
+  width: 300px;
+  height: 250px;
 }
 
 .top_section img{
@@ -89,9 +81,15 @@ ul li {
 }
 
 .mainj_text p{
-  font-size: 0.8rem;
+  font-size: 1rem;
+  font-family: 'Lobster', cursive;
 }
 
+.mainj_text h1 {
+  font-style: italic;
+  font-size: 3rem;
+  font-family: 'Langar', cursive;
+}
 .main_jacaranda {
   display: flex;
   justify-content: center;
@@ -105,115 +103,53 @@ footer p span {
   color: var(--gray-300);
 }
 
+.service_head {
+  font-family: 'Langar', cursive;
+}
+
 .main_jacaranda >div{
   padding-left: 100px;
   padding-right: 100px;
 }
 
+.service_1 h1{
+  color:rgb(77, 70, 71);
+  font-family: 'Langar', cursive;
+  font-weight: 400;
+  text-align: center;
+}
+
+.service_1 .service_text {
+  color:rgb(77, 70, 71);
+  font-family: 'Langar', cursive;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
 .mainj_image img{
   width: 100%;
   height: 70vh;
+  position: relative;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1))
 }
 
-.location_image img{
-  width: 80%;
-  height: 70vh;
-}
-
-.rwd_image_2 img {
-  width: 100%;
-  height: 70vh;
-}
-
-.maps_image img {
-  width: 100%;
-}
-
-.jacaranda_logo img{
-  height: 50vh;
-}
-
-.jacaranda_envelope_1 {
-  padding:3rem;
-  border: 1px solid;
-  box-shadow: 10px 10px 8px 10px #888888;
-  margin-bottom: 40px;
-  margin-left: 100px;
-  margin-right: 100px;
-}
-
-.jacaranda_envelope_1 p{
-  font-size: 1.3rem;
-  color: var(--gray-400);
-  line-height: 10px;
-}
-
-.envelope_2 {
- float: right;
-}
-
-.carousel_section {
-  height: 100vh;
-}
-
-.carousel_heading .fa-thumbs-up {
-  color: #fff;
-  background-color:  blue;
+.search_holder {
+  position: absolute;
+  bottom: 10%;
+  left: 30%;
+  background-color: var(--gray-200);
   padding: 20px;
-  border-radius: 50%;
 }
 
-.carousel-item img{
-  width: 350px;
-}
-
-.conversation {
-  height: 30vh;
-}
-
-.conversation h1 {
-  font-size: 1.5rem;
-}
-
-.conversation i {
-  padding-left: 10px;
-}
-
-.conversation .fa-facebook {
-  font-size: 1.5rem;
-}
-
-.right_section {
-  height: 200vh;
-}
-
-.owners h3 {
-  font-size: 0.6rem;
-  color: var(--gray-400)
-}
-
-.owner_text p {
-  line-height: 20px;
-}
-.owner_1 {
-  padding: 1rem;
-}
-
-.owner_1 img {
-  width: 40px;
+.search_holder input {
   height: 40px;
 }
 
-.owners >h1>a {
-  color: black;
-}
-
-.owner_text >p>a {
-  color: black;
-}
-
-.date {
-  color: var(--gray-400)  
+.search_holder button {
+  background-color: rgb(223, 10, 53);
+  color: white;
+  height: 40px;
+  border: none;
 }
 
 .link {
@@ -224,4 +160,224 @@ footer p span {
   font-size: 0.5rem;
   border: 1px solid var(--gray-400);
   border-radius: 0;
+}
+
+.services p {
+  font-size: 2rem;
+}
+
+footer {
+   height: 60vh;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+
+footer a {
+  color: white;
+  Padding-right: 10px;
+}
+
+footer a:hover {
+  color: rgb(223, 10, 53)
+}
+
+.media_icons i {
+  font-size: 1.5rem;
+}
+
+.footer_details h1 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.last_footer {
+  font-size: 0.8rem;
+}
+
+.bottom_lower span{
+  font-family: 'Lobster', cursive;
+}
+
+/*Search page*/
+.hotels_images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.hotel_image img{
+  width: 300px;
+  height: 250px;
+}
+
+.hotels_header {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  font-family: 'Padauk', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.j-head {
+  font-family: 'Lobster', cursive;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.hotel_image p {
+  line-height: 10px;
+}
+
+.jacaranda_logo {
+  width: 300px;
+  height: 200px;
+}
+
+/*details page */
+
+.details_1 {
+  text-align: center;
+}
+
+.details_1 p {
+  line-height: 10px;
+  font-size: 0.8rem;
+}
+
+.details_1 img {
+  width: 500px;
+  height: 400px;
+}
+
+.details_heading {
+  font-size: 2rem;
+  text-align: center
+}
+
+.details_heading button {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.details_1 h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.details_page{
+  color: white;
+}
+
+.details_1 h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .mainj_image img{
+    width: 100%;
+    height: 50vh;
+  }
+  .mainj_text h1 {
+    font-size: 1.5rem;
+  }
+  .search_holder {
+    position: absolute;
+    bottom: 20%;
+  }
+  input {
+    width: 200px;
+  }
+
+  .services_main {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 10px;
+  }
+
+  .services_main img {
+    width: 250px;
+    height: 200px;
+  }
+
+  .details_1 img {
+    width: 500px;
+    height: 300px;
+  }
+
+  .hotels_images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+
+  .hotel_image img{
+    width: 300px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav_heading {
+    font-size: 1rem;
+  }
+
+  .mainj_text h1 {
+    font-size: 1rem;
+  }
+
+  .mainj_image img{
+    width: 100%;
+    height: 50vh;
+  }
+
+  .j-head {
+     font-size: 1.5rem;
+  }
+
+  .details_1 img {
+    width: 300px;
+    height: 200px;
+  }
+
+  .services_main {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+  }
+
+  .search_holder {
+    position: absolute;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    bottom: 2%;
+    padding: 10px;
+  }
+  
+  .search_holder input {
+    height: 30px;
+  }
+  
+  .hotels_images {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+
+  .search_holder button {
+    width: 100%;
+    height: 30px;
+  }
+
+  .services_main img {
+    width: 300px;
+  }
 }
