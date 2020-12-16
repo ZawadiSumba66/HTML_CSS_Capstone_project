@@ -1,4 +1,8 @@
 /* home page */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 header {
   height: 40px;
   width: 100%;
@@ -11,14 +15,12 @@ header {
 
 .nav_heading {
   font-size: 1.7rem;
-  font-family: 'Lobster', cursive;
 }
 
 .find_us_header,
 p,
 h1 {
   font-size: 1.5rem;
-  font-family: 'Lobster', cursive;
 }
 
 p,
@@ -112,13 +114,11 @@ input {
 
 .mainj_text p {
   font-size: 1rem;
-  font-family: 'Lobster', cursive;
 }
 
 .mainj_text h1 {
   font-style: italic;
   font-size: 3rem;
-  font-family: 'Langar', cursive;
 }
 
 .mainj_image img {
@@ -159,25 +159,18 @@ input {
   text-decoration: none;
 }
 
-.service_head {
-  font-family: 'Langar', cursive;
-}
-
 .finish_text {
   font-size: 1.5rem;
-  font-family: 'Langar', cursive;
 }
 
 .service_1 h1 {
   color: rgb(77, 70, 71);
-  font-family: 'Langar', cursive;
   font-weight: 400;
   text-align: center;
 }
 
 .service_1 .service_text {
   color: rgb(77, 70, 71);
-  font-family: 'Langar', cursive;
   font-size: 0.8rem;
   text-align: center;
 }
@@ -220,6 +213,8 @@ footer p span {
   border: none;
   color: white;
   border-radius: 10px;
+  width: 50%;
+  margin-top: 5px;
 }
 
 .media_icons i {
@@ -234,10 +229,6 @@ footer p span {
 
 .last_footer {
   font-size: 0.8rem;
-}
-
-.bottom_lower span {
-  font-family: 'Lobster', cursive;
 }
 
 /* Search page */
@@ -263,14 +254,12 @@ footer p span {
 }
 
 .j-head {
-  font-family: 'Lobster', cursive;
   font-weight: bold;
   font-size: 2rem;
 }
 
 .hotel_image p {
   line-height: 10px;
-  font-family: 'Langar', cursive;
 }
 
 .jacaranda_logo {
@@ -329,6 +318,11 @@ footer p span {
   .mainj_image img {
     width: 100%;
     height: 50vh;
+  }
+
+  footer {
+    padding: 5px;
+    height: 70vh;
   }
 
   .mainj_text h1 {
