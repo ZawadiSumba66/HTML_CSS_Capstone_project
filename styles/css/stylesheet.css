@@ -1,10 +1,11 @@
-.main_nav{
+/* home page */
+.main_nav {
   height: 40px;
   width: 100%;
 }
 
 .nav_section {
-  background-color:rgb(223, 10, 53);
+  background-color: rgb(223, 10, 53);
   z-index: 10;
 }
 
@@ -13,14 +14,47 @@
   font-family: 'Lobster', cursive;
 }
 
+.find_us_header,
+p,
+h1 {
+  font-size: 1.5rem;
+  font-family: 'Lobster', cursive;
+}
 
-.left_side a{
+p,
+h1 {
+  font-size: 1rem;
+}
+
+footer p {
+  font-size: 0.8rem;
+}
+
+.services p {
+  font-size: 2rem;
+}
+
+footer a {
+  color: white;
+  padding-right: 30px;
+}
+
+.left_side a {
   text-decoration: none;
   color: black;
 }
 
 ul li {
-    list-style: none;
+  list-style: none;
+}
+
+.followers p a {
+  text-decoration: none;
+  color: black;
+}
+
+footer a:hover {
+  color: rgb(223, 10, 53);
 }
 
 .left_side ul a:hover {
@@ -37,6 +71,7 @@ ul li {
 
 .all_jacaranda {
   border: 1px solid var(--gray-300);
+  height: auto;
 }
 
 form {
@@ -69,18 +104,13 @@ input {
   height: 250px;
 }
 
-.top_section img{
+.top_section img {
   width: 50px;
   height: 50px;
   border-radius: 50%;
 }
 
-.followers p a {
-  text-decoration: none;
-  color: black;
-}
-
-.mainj_text p{
+.mainj_text p {
   font-size: 1rem;
   font-family: 'Lobster', cursive;
 }
@@ -90,49 +120,8 @@ input {
   font-size: 3rem;
   font-family: 'Langar', cursive;
 }
-.main_jacaranda {
-  display: flex;
-  justify-content: center;
-}
 
-footer p {
-  font-size: 0.8rem;
-}
-
-footer p span {
-  color: var(--gray-300);
-}
-
-.service_head {
-  font-family: 'Langar', cursive;
-}
-
-.main_jacaranda >div{
-  padding-left: 100px;
-  padding-right: 100px;
-}
-
-.service_1 h1{
-  color:rgb(77, 70, 71);
-  font-family: 'Langar', cursive;
-  font-weight: 400;
-  text-align: center;
-}
-
-.service_1 .service_text {
-  color:rgb(77, 70, 71);
-  font-family: 'Langar', cursive;
-  font-size: 0.8rem;
-  text-align: center;
-}
-.service_1 button {
-  background-color: rgb(223, 10, 53);
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 0.9rem;
-}
-.mainj_image img{
+.mainj_image img {
   width: 100%;
   height: 70vh;
   position: relative;
@@ -143,12 +132,20 @@ footer p span {
   position: absolute;
   bottom: 10%;
   left: 30%;
-  background-color: var(--gray-200);
+  background-color: rgba(189, 189, 189, 0.8);
   padding: 20px;
 }
 
 .search_holder input {
   height: 40px;
+}
+
+.find_us {
+  text-align: center;
+}
+
+.find_1 i {
+  font-size: 2rem;
 }
 
 .search_holder button {
@@ -162,31 +159,72 @@ footer p span {
   text-decoration: none;
 }
 
+.service_head {
+  font-family: 'Langar', cursive;
+}
+
+.finish_text {
+  font-size: 1.5rem;
+  font-family: 'Langar', cursive;
+}
+
+.main_jacaranda > div {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.service_1 h1 {
+  color: rgb(77, 70, 71);
+  font-family: 'Langar', cursive;
+  font-weight: 400;
+  text-align: center;
+}
+
+.service_1 .service_text {
+  color: rgb(77, 70, 71);
+  font-family: 'Langar', cursive;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.service_1 button {
+  background-color: rgb(223, 10, 53);
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
 .last_buttons .btn {
   font-size: 0.5rem;
   border: 1px solid var(--gray-400);
   border-radius: 0;
 }
 
-.services p {
-  font-size: 2rem;
-}
-
 footer {
-   height: 60vh;
-   display:flex;
-   align-items: center;
-   justify-content: center;
-   text-align: center;
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
 }
 
-footer a {
+footer p span {
+  color: var(--gray-300);
+}
+
+.subscribe input {
+  width: 200px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: black;
+}
+
+.subscribe button {
+  background-color: rgb(223, 10, 53);
+  border: none;
   color: white;
-  Padding-right: 10px;
-}
-
-footer a:hover {
-  color: rgb(223, 10, 53)
+  border-radius: 10px;
 }
 
 .media_icons i {
@@ -203,18 +241,18 @@ footer a:hover {
   font-size: 0.8rem;
 }
 
-.bottom_lower span{
+.bottom_lower span {
   font-family: 'Lobster', cursive;
 }
 
-/*Search page*/
+/* Search page */
 .hotels_images {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 10px;
 }
 
-.hotel_image img{
+.hotel_image img {
   width: 300px;
   height: 250px;
 }
@@ -237,6 +275,7 @@ footer a:hover {
 
 .hotel_image p {
   line-height: 10px;
+  font-family: 'Langar', cursive;
 }
 
 .jacaranda_logo {
@@ -244,7 +283,7 @@ footer a:hover {
   height: 200px;
 }
 
-/*details page */
+/* details page */
 
 .details_1 {
   text-align: center;
@@ -262,7 +301,12 @@ footer a:hover {
 
 .details_heading {
   font-size: 2rem;
-  text-align: center
+  text-align: center;
+}
+
+.details_text {
+  color: var(--gray-400);
+  font-size: 0.8rem;
 }
 
 .details_heading button {
@@ -277,7 +321,7 @@ footer a:hover {
   text-decoration: underline;
 }
 
-.details_page{
+.details_page {
   color: white;
 }
 
@@ -287,24 +331,27 @@ footer a:hover {
 }
 
 @media screen and (max-width: 1024px) {
-  .mainj_image img{
+  .mainj_image img {
     width: 100%;
     height: 50vh;
   }
+
   .mainj_text h1 {
     font-size: 1.5rem;
   }
+
   .search_holder {
     position: absolute;
     bottom: 20%;
   }
+
   input {
     width: 200px;
   }
 
   .services_main {
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
   }
 
@@ -324,7 +371,7 @@ footer a:hover {
     grid-gap: 10px;
   }
 
-  .hotel_image img{
+  .hotel_image img {
     width: 300px;
     height: 250px;
   }
@@ -335,17 +382,27 @@ footer a:hover {
     font-size: 1rem;
   }
 
+  footer a {
+    color: white;
+    padding-right: 5px;
+    font-size: 0.7rem;
+  }
+
+  footer p {
+    font-size: 0.7rem;
+  }
+
   .mainj_text h1 {
     font-size: 1rem;
   }
 
-  .mainj_image img{
+  .mainj_image img {
     width: 100%;
     height: 50vh;
   }
 
   .j-head {
-     font-size: 1.5rem;
+    font-size: 1.5rem;
   }
 
   .details_1 img {
@@ -367,11 +424,11 @@ footer a:hover {
     bottom: 2%;
     padding: 10px;
   }
-  
+
   .search_holder input {
     height: 30px;
   }
-  
+
   .hotels_images {
     display: grid;
     grid-template-columns: 1fr;
@@ -385,5 +442,21 @@ footer a:hover {
 
   .services_main img {
     width: 300px;
+  }
+
+  footer {
+    padding: 5px;
+    height: 70vh;
+  }
+
+  .subscribe button {
+    width: 50%;
+    margin-top: 5px;
+  }
+
+  .button_location {
+    width: 70%;
+    height: 30px;
+    margin-top: 10px;
   }
 }
