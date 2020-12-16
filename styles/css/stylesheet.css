@@ -133,7 +133,7 @@ input {
   bottom: 10%;
   left: 30%;
   background-color: rgba(189, 189, 189, 0.8);
-  padding: 20px;
+  padding: 30px;
 }
 
 .search_holder input {
@@ -416,7 +416,7 @@ footer p span {
     margin-top: 8px;
     display: flex;
     flex-direction: column;
-    bottom: 2%;
+    bottom: 20%;
     padding: 10px;
   }
 
