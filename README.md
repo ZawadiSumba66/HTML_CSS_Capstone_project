@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This my  final project in the HTML/CSS  module at Microverse. In it, I have showcased technologies like Bootstrap and Sass. I have built three pages: home,search and details.
+This my  final project in the HTML/CSS  module at Microverse. In it, I have showcased bootstrap.
 
 The project is a hotel web app that entails the services offered, location of the hotel in different parts of the country and other UX designs. The app focuses on giving clients an easier time to book for various facilities the hotel offers
 
