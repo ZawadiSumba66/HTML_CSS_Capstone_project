@@ -15,7 +15,6 @@ The website is fully responsive with the help of three `media query` `breakpoint
 - HTML
 - CSS
 - Bootstrap
-- Sass
 
 ## Live demo link
 
