@@ -174,7 +174,7 @@ footer p span {
   border: none;
   color: black;
   margin-top: 5px;
-  width: 200px;
+  width: 100px;
 }
 
 .media_icons i {
@@ -416,7 +416,7 @@ footer p span {
 
   footer {
     padding: 5px;
-    height: 80vh;
+    height: 70vh;
   }
 
   .nav_1 {
@@ -437,5 +437,9 @@ footer p span {
 
   .form-1 input {
     height: 30px;
+  }
+
+  .subscribe button {
+    width: 100px;
   }
 }
