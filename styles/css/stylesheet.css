@@ -112,7 +112,7 @@ input {
   height: 40px;
 }
 
-.find_us {
+.text_center {
   text-align: center;
 }
 
@@ -158,7 +158,6 @@ footer {
   height: 50vh;
   display: flex;
   justify-content: space-between;
-  text-align: center;
   align-items: center;
   overflow: hidden;
   margin-top: 0;
@@ -187,12 +186,6 @@ footer p span {
   font-size: 1.5rem;
 }
 
-.footer_details h1 {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-}
-
 .last_footer {
   font-size: 0.8rem;
 }
@@ -211,7 +204,6 @@ footer p span {
 
 .form-2 {
   background-color: var(--gray-300);
-  text-align: center;
   color: black;
 }
 
@@ -245,10 +237,6 @@ footer p span {
   font-size: 2rem;
 }
 
-.details_info {
-  text-align: center;
-}
-
 .details_info button {
   width: 300px;
   border: 1px solid var(--gray-400);
@@ -259,7 +247,6 @@ footer p span {
 }
 
 .last_text {
-  text-align: center;
   padding: 1rem;
 }
 
