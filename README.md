@@ -51,7 +51,7 @@ Give a ⭐️ if you like this project!
 - Hat tip to [Patashule](https://www.behance.net/gallery/25563385/PatashuleKE) for the insipiration towards building the website.
 - Hat tip to Microverse for their `README` template.
 
-## 📝 License
+## 📝MIT License
 
 Copyright 2020 Rose Sumba
 
