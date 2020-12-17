@@ -20,7 +20,7 @@
     />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Padauk:wght@700&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="styles/css/stylesheet.css">
+    <link rel="stylesheet" href="styles/css/stylesheet.css">
     <link rel="stylesheet" href="styles/css/reset.css">
 </head>
 <body>
@@ -28,97 +28,75 @@
         <nav class="nav_section position-fixed w-100">
             <div class="nav_1 align-items-center mb-3 px-3 pt-3 d-flex justify-content-between ">
                 <div class="left_side d-flex justify-content-between">
-                  <span class="nav_heading font-weight-bold  pr-3"><a href="#" class="text-light"><i class="fab fa-pagelines"></i>Jacaranda</a></span>
+                  <span class="nav_heading font-weight-bold  pr-3"><a href="#" class="text-light"><i class="fab fa-pagelines"></i>jacarandaSuites</a></span>
                 </div>
                 <div class="right_side  d-flex align-items-center">
-                        <ul class=" d-lg-flex d-none justify-content-between font-weight-bold">
-                            <li class="pr-3 "><a class="text-light" href="index.html">Home</a></li>
-                            <li class="pr-3 "><a class="text-light" href="results.html"> Search</a></li>
-                            <li><a  class="text-light" href="details.html">Details</a></li>
-                        </ul>
-                        <ul class=" d-lg-none d-flex justify-content-between font-weight-bold">
-                            <li class="pr-3 "><a class="text-light" href="index.html"><i class="fas fa-home"></i></a></li>
-                            <li class="pr-3 "><a class="text-light" href="results.html"><i class="fas fa-search"></i></a></li>
-                            <li><a class="text-light" href="details.html">Details</a></li>
-                        </ul>
+                  <ul class=" d-lg-flex d-none justify-content-between font-weight-bold">
+                    <li class="pr-3 "><a class="text-light" href="index.html">Home <i class="fas fa-home"></i></a></li>
+                    <li class="pr-3 "><a class="text-light" href="results.html"> Search <i class="fas fa-search"></i></a></li>
+                    <li class="pr-3 "><a class="text-light"> About <i class="fas fa-user"></i></a></li>
+                    <li><a class="text-light" href="details.html">Details <i class="fas fa-info-circle"></i></a></li>
+                </ul>
+                <ul class=" d-lg-none d-flex justify-content-between font-weight-bold">
+                    <li class="pr-3 "><a class="text-light" href="index.html"><i class="fas fa-home"></i></a></li>
+                    <li class="pr-3 "><a class="text-light" href="results.html"><i class="fas fa-search"></i></a></li>
+                    <li class="pr-3 "><a class="text-light"><i class="fas fa-user"></i></a></li>
+                    <li class="pr-3 "><a class="text-light" href="details.html"><i class="fas fa-info-circle"></i></a></li>
+                </ul>
                 </div>
             </div>
         </nav>
       </header>
-      <div class="main_div">
+      <main>
       <div class="jacaranda_body">
-        <div class="top_section d-flex">
-            <img src="https://jacarandahotels.com/wp-content/uploads/2020/08/RT4A3534-720x430.jpg" alt="">
-            <div class="pl-3 top_section_text">
-                <h1 class="font-weight-bold">Jacaranda SuitesKE</h1>
-                <div class="followers d-flex">
-                   <p class="pr-3"><a href="#" data-toggle="tooltip" data-placement="bottom" title="Henry Njoroge and Matthew Makeba " content="CEO">Mutiple Owners ▾</a></p> 
-                   <p><a href="#">Follow all</a></p>
-                </div> 
-            </div>
-        </div>
-        <hr>
-        <h1 class="d-flex justify-content-center j-head">JACARANDA HOTELS IN KENYA</h1>
-        <hr>
         <div class="register">
-        <form action="results.html">
-          <h1 class="font-weight-bold text-light">Search for you favorite destinstions below</h1>
-           <label>LOCATION: </label><br>
+        <form action="results.html" class="form-2 text_center p-5 mx-5">
+          <h3 class="font-weight-bold text-dark">Filter by location or type:</h3>
+           <label class="text-dark">LOCATION: </label>
           <input type="text">
-          <button type="button" class="btn bg-white button_location">SEARCH</button>
+          <label class="text-dark">TYPE</label>
+          <input type="text" placeholder="3 star,5 star...">
+          <button type="button" class="btn bg-primary text-light button_location">SEARCH</button>
+          <button type="button" class="btn bg-warning text-light button_location">CLEAR</button>
         </form>
       </div>
+      <h3 class="d-flex justify-content-center search_head">Search results found 5 hotel(s)</h3>
         <div class="hotels_jacaranda mb-5  d-flex justify-content-center">
           <div class="hotels_images  mb-5">
             <div class="hotel_image">
                 <a href="details.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDKnN-Z6i_7m21zSOVz1TkYI09GjGOsoJAHA&usqp=CAU" alt=""></a>
                 <p class="font-weight-bold pt-3">Mombasa</p>
                 <p class="details_text">JACARANDAKE</p>
+                <p>5 star</p>
             </div>
             <div class="hotel_image">
                 <a href="details.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoZSICO7S85zertO1Fooh99mc0Njeod5DBug&usqp=CAU" alt=""></a>
                 <p class="font-weight-bold pt-3">Nairobi</p>
                 <p class="details_text">JACARANDAKE</p>
+                <p>5 star</p>
             </div>
             <div class="hotel_image">
                 <a href="details.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNBr4-TqOkwHChILriY0aIg2icxfaTDED2TQ&usqp=CAU" alt=""></a>
                 <p class="font-weight-bold pt-3">Kericho</p>
                 <p class="details_text">JACARANDAKE</p>
+                <p>5 star</p>
             </div>
             <div class="hotel_image">
                 <a href="details.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXWgRBnMy9zub1j7mmaIR1xmRPytPlR8KTaA&usqp=CAU" alt=""></a>
                 <p class="font-weight-bold pt-3">Kisumu</p>
                 <p class="details_text">JACARANDAKE</p>
+                <p>5 star</p>
             </div>
             <div class="hotel_image">
                 <a href="details.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuoTM37NdLAlkhEo0HGf6he_EVxuORIKx46w&usqp=CAU" alt=""></a>
                 <p class="font-weight-bold pt-3">Eldoret</p>
                 <p class="details_text">JACARANDAKE</p>
-            </div>
-            <div class="hotel_image">
-                <a href="details.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuW8GYVKeNSf-CIPKkFeYHBKsLFTBXwzEuyg&usqp=CAU" alt=""></a>
-                <p class="font-weight-bold pt-3">Kisii</p>
-                <p class="details_text">JACARANDAKE</p>
-            </div>
-            <div class="hotel_image">
-                <a href="details.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU5mCviDzgnxCyx1dbNR7TgndcBMr6rqvplg&usqp=CAU" alt=""></a>
-                <p class="font-weight-bold pt-3">Garissa</p>
-                <p class="details_text">JACARANDAKE</p>
-            </div>
-            <div class="hotel_image">
-                <a href="details.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5fG0KQ0oW74ZfRwByzOqnoVly6sVvznsW0Q&usqp=CAU" alt=""></a>
-                <p class="font-weight-bold pt-3">Webuye</p>
-                <p class="details_text">JACARANDAKE</p>
-            </div>
-            <div class="hotel_image">
-                <a href="details.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdduiWA_1mK_E37AJ2ppErONki9jXuxdkVkg&usqp=CAU" alt=""></a>
-                <p class="font-weight-bold pt-3">Kakamega</p>
-                <p class="details_text">JACARANDAKE</p>
+                <p>5 star</p>
             </div>
           </div>
         </div>
       </div>
-      <footer class="mt-3 d-flex justify-content-center mx-auto w-100 bg-dark pt-4">
+      <footer class="mt-3 d-flex justify-content-center mx-auto w-100 bg-dark pt-4 text_center">
         <div class="footer_details">
       <div class="last_footer pb-4">
         <a href="#">EVENTS</a>
@@ -136,7 +114,7 @@
         <div class="subscribe col-sm-12 col-lg-4">
           <p class="pr-2 text-light font-weight-bold text-uppercase">subscribe</p>
            <div class="button_footer">
-             <input type="text" class="bg-dark" placeholder="example@gmail.com">
+             <input type="text" class="bg-dark" placeholder="example@gmail.com"><br>
              <button type="button">send</button>
            </div>
         </div>
@@ -155,6 +133,6 @@
       </div>
     </div>
     </footer>
-  </div>
+  </main>
 </body>
 </html>

@@ -9,7 +9,7 @@ header {
 }
 
 .nav_section {
-  background-color: rgb(223, 10, 53);
+  background-color: #d35649;
   z-index: 10;
 }
 
@@ -33,7 +33,7 @@ footer p {
 }
 
 .services p {
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 footer a {
@@ -50,11 +50,6 @@ ul li {
   list-style: none;
 }
 
-.followers p a {
-  text-decoration: none;
-  color: black;
-}
-
 footer a:hover {
   color: rgb(223, 10, 53);
 }
@@ -64,7 +59,7 @@ footer a:hover {
 }
 
 .right_side {
-  right: 30px;
+  padding-right: 50px;
 }
 
 .jacaranda_body {
@@ -76,16 +71,6 @@ footer a:hover {
   height: auto;
 }
 
-form {
-  margin: 2rem auto;
-  text-align: center;
-  background-color: rgb(223, 10, 53);
-  border-radius: 10px;
-  width: 50%;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
-}
-
 label {
   color: white;
 }
@@ -95,21 +80,10 @@ input {
   height: 30px;
 }
 
-.services_main {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
-}
-
-.services_main img {
-  width: 300px;
-  height: 250px;
-}
-
-.top_section img {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
+.main_j_info {
+  position: absolute;
+  bottom: 40%;
+  left: 30%;
 }
 
 .mainj_text p {
@@ -117,8 +91,8 @@ input {
 }
 
 .mainj_text h1 {
-  font-style: italic;
   font-size: 3rem;
+  color: white;
 }
 
 .mainj_image img {
@@ -129,11 +103,9 @@ input {
 }
 
 .search_holder {
-  position: absolute;
-  bottom: 10%;
-  left: 30%;
   background-color: rgba(189, 189, 189, 0.8);
-  padding: 30px;
+  padding: 50px;
+  border-radius: 10px;
 }
 
 .search_holder input {
@@ -155,38 +127,31 @@ input {
   border: none;
 }
 
-.link {
-  text-decoration: none;
+.service_1 {
+  padding: 50px 100px;
+  background-color: #e27f65;
+  display: grid;
+  grid-template-columns: 8fr 1fr;
 }
 
-.finish_text {
-  font-size: 1.5rem;
+.service_2 {
+  padding: 50px 100px;
+  background-color: #98a4a5;
+  display: grid;
+  grid-template-columns: 8fr 1fr;
 }
 
-.service_1 h1 {
-  color: rgb(77, 70, 71);
-  font-weight: 400;
-  text-align: center;
+.service_3 {
+  padding: 50px 100px;
+  background-color: #519cd7;
+  display: grid;
+  grid-template-columns: 8fr 1fr;
 }
 
-.service_1 .service_text {
-  color: rgb(77, 70, 71);
-  font-size: 0.8rem;
-  text-align: center;
-}
-
-.service_1 button {
-  background-color: rgb(223, 10, 53);
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 0.9rem;
-}
-
-.last_buttons .btn {
-  font-size: 0.5rem;
-  border: 1px solid var(--gray-400);
-  border-radius: 0;
+.services_main img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
 
 footer {
@@ -195,6 +160,8 @@ footer {
   justify-content: space-between;
   text-align: center;
   align-items: center;
+  overflow: hidden;
+  margin-top: 0;
 }
 
 footer p span {
@@ -209,12 +176,11 @@ footer p span {
 }
 
 .subscribe button {
-  background-color: rgb(223, 10, 53);
+  background-color: white;
   border: none;
-  color: white;
-  border-radius: 10px;
-  width: 50%;
+  color: black;
   margin-top: 5px;
+  width: 200px;
 }
 
 .media_icons i {
@@ -238,19 +204,29 @@ footer p span {
   grid-gap: 10px;
 }
 
+.search_head {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.form-2 {
+  background-color: var(--gray-300);
+  text-align: center;
+  color: black;
+}
+
+.form-2 h3 {
+  font-size: 2rem;
+}
+
+.form-2 input {
+  height: 50px;
+  width: 200px;
+}
+
 .hotel_image img {
   width: 300px;
   height: 250px;
-}
-
-.hotels_header {
-  font-weight: bold;
-  display: flex;
-  justify-content: center;
-  font-family: 'Padauk', sans-serif;
-  font-family: 'Poppins', sans-serif;
-  margin-bottom: 1rem;
-  width: 100%;
 }
 
 .j-head {
@@ -262,56 +238,45 @@ footer p span {
   line-height: 10px;
 }
 
-.jacaranda_logo {
-  width: 300px;
-  height: 200px;
-}
-
 /* details page */
-
-.details_1 {
-  text-align: center;
-}
-
-.details_1 p {
-  line-height: 10px;
-  font-size: 0.8rem;
-}
-
-.details_1 img {
-  width: 500px;
-  height: 400px;
-}
-
-.details_heading {
-  font-size: 2rem;
-  text-align: center;
-}
-
-.details_text {
-  color: var(--gray-400);
-  font-size: 0.8rem;
-}
-
-.details_heading button {
+.details_header {
+  color: #d35649;
   font-weight: bold;
-  text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
-.details_1 h1 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 2rem;
-  text-decoration: underline;
+.details_info {
+  text-align: center;
+}
+
+.details_info button {
+  width: 300px;
+  border: 1px solid var(--gray-400);
 }
 
 .details_page {
   color: white;
 }
 
-.details_1 h3 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 2rem;
+.last_text {
+  text-align: center;
+  padding: 1rem;
+}
+
+.form-1 label {
+  color: black;
+}
+
+.form-1 input {
+  background-color: var(--gray-300);
+  border: none;
+  height: 50px;
+}
+
+.last_text button {
+  border: 1px solid var(--gray-400);
+  width: 70%;
+  margin: 1rem auto;
 }
 
 @media screen and (max-width: 1024px) {
@@ -329,29 +294,13 @@ footer p span {
     font-size: 1.5rem;
   }
 
-  .search_holder {
-    position: absolute;
-    bottom: 20%;
-  }
-
   input {
     width: 200px;
   }
 
-  .services_main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
-  }
-
   .services_main img {
-    width: 250px;
+    width: 200px;
     height: 200px;
-  }
-
-  .details_1 img {
-    width: 500px;
-    height: 300px;
   }
 
   .hotels_images {
@@ -364,17 +313,67 @@ footer p span {
     width: 300px;
     height: 250px;
   }
+
+  .form-2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-2 input {
+    width: 100%;
+  }
+
+  .form-2 button {
+    width: 100%;
+  }
+
+  .main_j_info {
+    position: absolute;
+    bottom: 50%;
+    left: 30%;
+  }
+
+  .search_holder {
+    background-color: rgba(189, 189, 189, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+  }
+
+  .details_info button {
+    width: 250px;
+    border: 1px solid var(--gray-400);
+  }
 }
 
 @media screen and (max-width: 768px) {
   .nav_heading {
-    font-size: 1rem;
+    font-size: 2rem;
   }
 
   footer a {
     color: white;
     padding-right: 5px;
     font-size: 0.7rem;
+  }
+
+  .right_side a {
+    font-size: 1.5rem;
+  }
+
+  .service_text {
+    text-align: center;
+  }
+
+  .service_1 {
+    grid-template-columns: 1fr;
+  }
+
+  .service_2 {
+    grid-template-columns: 1fr;
+  }
+
+  .service_3 {
+    grid-template-columns: 1fr;
   }
 
   footer p {
@@ -399,23 +398,17 @@ footer p span {
     height: 200px;
   }
 
-  .services_main {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: auto;
-  }
-
   .search_holder {
-    position: absolute;
     margin-top: 8px;
     display: flex;
     flex-direction: column;
-    bottom: 20%;
     padding: 10px;
+    border-radius: 0;
   }
 
   .search_holder input {
     height: 30px;
+    width: 100%;
   }
 
   .hotels_images {
@@ -424,13 +417,18 @@ footer p span {
     grid-gap: 10px;
   }
 
+  .services_main img {
+    margin: 0.5rem auto;
+  }
+
+  .last_text p,
+  button {
+    font-size: 0.8rem;
+  }
+
   .search_holder button {
     width: 100%;
     height: 30px;
-  }
-
-  .services_main img {
-    width: 300px;
   }
 
   footer {
@@ -438,14 +436,23 @@ footer p span {
     height: 70vh;
   }
 
-  .subscribe button {
-    width: 50%;
-    margin-top: 5px;
+  .nav_1 {
+    display: flex;
+    flex-direction: column;
   }
 
   .button_location {
     width: 70%;
     height: 30px;
     margin-top: 10px;
+  }
+
+  .details_info button {
+    width: 100%;
+    border: 1px solid var(--gray-400);
+  }
+
+  .form-1 input {
+    height: 30px;
   }
 }
