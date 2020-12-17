@@ -442,4 +442,8 @@ footer p span {
   .subscribe button {
     width: 100px;
   }
+
+  .contact {
+    width: 100%;
+  }
 }
