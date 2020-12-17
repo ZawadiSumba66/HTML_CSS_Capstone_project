@@ -14,7 +14,7 @@ header {
 }
 
 .nav_heading {
-  font-size: 1.7rem;
+  font-size: 1.2rem;
 }
 
 .find_us_header,
@@ -43,7 +43,6 @@ footer a {
 
 .left_side a {
   text-decoration: none;
-  color: black;
 }
 
 ul li {
@@ -52,10 +51,6 @@ ul li {
 
 footer a:hover {
   color: rgb(223, 10, 53);
-}
-
-.left_side ul a:hover {
-  border-bottom: 3px solid white;
 }
 
 .right_side {
@@ -83,7 +78,7 @@ input {
 .main_j_info {
   position: absolute;
   bottom: 40%;
-  left: 20%;
+  left: 30%;
 }
 
 .mainj_text p {
@@ -91,7 +86,7 @@ input {
 }
 
 .mainj_text h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   color: white;
 }
 
@@ -104,7 +99,7 @@ input {
 
 .search_holder {
   background-color: rgba(189, 189, 189, 0.8);
-  padding: 50px;
+  padding: 30px;
   border-radius: 10px;
 }
 
@@ -274,7 +269,7 @@ footer p span {
 
   footer {
     padding: 5px;
-    height: 70vh;
+    height: 80vh;
   }
 
   .mainj_text h1 {
@@ -391,6 +386,7 @@ footer p span {
     flex-direction: column;
     padding: 10px;
     border-radius: 0;
+    left: 5%;
   }
 
   .search_holder input {
@@ -420,7 +416,7 @@ footer p span {
 
   footer {
     padding: 5px;
-    height: 70vh;
+    height: 80vh;
   }
 
   .nav_1 {
