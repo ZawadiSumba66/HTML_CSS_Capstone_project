@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JACARANDAKE/search</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Padauk:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/css/stylesheet.css">
+    <link rel="stylesheet" href="styles/css/reset.css">
+</head>
+<body>
+    <header  class="mb-5">
+        <nav class="nav_section position-fixed w-100">
+            <div class="nav_1 align-items-center mb-3 px-3 pt-3 d-flex justify-content-between ">
+                <div class="left_side d-flex justify-content-between">
+                  <span class="nav_heading font-weight-bold  pr-3"><a href="#" class="text-light"><i class="fab fa-pagelines"></i>jacarandaSuites</a></span>
+                </div>
+                <div class="right_side  d-flex align-items-center">
+                  <ul class=" d-lg-flex d-none justify-content-between font-weight-bold">
+                    <li class="pr-3 "><a class="text-light" href="index.html">Home <i class="fas fa-home"></i></a></li>
+                    <li class="pr-3 "><a class="text-light" href="results.html"> Search <i class="fas fa-search"></i></a></li>
+                    <li class="pr-3 "><a class="text-light"> About <i class="fas fa-user"></i></a></li>
+                    <li><a class="text-light" href="details.html">Details <i class="fas fa-info-circle"></i></a></li>
+                </ul>
+                <ul class=" d-lg-none d-flex justify-content-between font-weight-bold">
+                    <li class="pr-3 "><a class="text-light" href="index.html"><i class="fas fa-home"></i></a></li>
+                    <li class="pr-3 "><a class="text-light" href="results.html"><i class="fas fa-search"></i></a></li>
+                    <li class="pr-3 "><a class="text-light"><i class="fas fa-user"></i></a></li>
+                    <li class="pr-3 "><a class="text-light" href="details.html"><i class="fas fa-info-circle"></i></a></li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+      </header>
+      <main>
+      <div class="jacaranda_body">
+        <div class="register">
+        <form action="results.html" class="form-2 p-5  mx-5">
+          <h1 class="font-weight-bold text-dark d-flex justify-content-center">Filter by hotel name, Location,Type, Road or Services</h1>
+          <div class="d-flex justify-content-center form-filler">
+          <div class="pr-3">
+          <label class="text-dark">HOTEL NAME*</label><br>
+          <input type="text"><br>
+          </div>
+          <div class="pr-3">
+           <label class="text-dark">LOCATION:</label><br>
+          <input type="text"><br>
+        </div>
+        <div class="pr-3">
+          <label class="text-dark">TYPE*</label><br>
+          <input type="text" placeholder="3 star,5 star...">
+        </div>
+        <div class="pr-3">
+          <label class="text-dark">ROAD</label><br>
+          <input type="text"><br>
+        </div>
+        <div class="pr-3">
+          <label class="text-dark">SERVICES</label><br>
+          <input type="text">
+          <button type="button" class="btn bg-primary text-light button_location">SEARCH</button>
+          <button type="button" class="btn text-light button_location all-clear">CLEAR</button>
+        </div>
+      </div>
+        </form>
+      </div>
+      <h3 class="d-flex justify-content-center search_head">Search results found 5 hotel(s)</h3>
+        <div class="hotels_jacaranda mb-5  d-flex justify-content-center">
+          <div class="hotels_images  mb-5">
+            <div class="hotel_image">
+                <a href="details.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDKnN-Z6i_7m21zSOVz1TkYI09GjGOsoJAHA&usqp=CAU" alt=""></a>
+                <p class="font-weight-bold pt-3">Mombasa</p>
+                <p class="details_text">JACARANDAKE</p>
+                <p>5 star</p>
+            </div>
+            <div class="hotel_image">
+                <a href="details.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoZSICO7S85zertO1Fooh99mc0Njeod5DBug&usqp=CAU" alt=""></a>
+                <p class="font-weight-bold pt-3">Nairobi</p>
+                <p class="details_text">JACARANDAKE</p>
+                <p>5 star</p>
+            </div>
+            <div class="hotel_image">
+                <a href="details.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNBr4-TqOkwHChILriY0aIg2icxfaTDED2TQ&usqp=CAU" alt=""></a>
+                <p class="font-weight-bold pt-3">Kericho</p>
+                <p class="details_text">JACARANDAKE</p>
+                <p>5 star</p>
+            </div>
+            <div class="hotel_image">
+                <a href="details.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXWgRBnMy9zub1j7mmaIR1xmRPytPlR8KTaA&usqp=CAU" alt=""></a>
+                <p class="font-weight-bold pt-3">Kisumu</p>
+                <p class="details_text">JACARANDAKE</p>
+                <p>5 star</p>
+            </div>
+            <div class="hotel_image">
+                <a href="details.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuoTM37NdLAlkhEo0HGf6he_EVxuORIKx46w&usqp=CAU" alt=""></a>
+                <p class="font-weight-bold pt-3">Eldoret</p>
+                <p class="details_text">JACARANDAKE</p>
+                <p>5 star</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="mt-3 d-flex justify-content-center mx-auto w-100 bg-dark pt-4 text_center">
+        <div class="footer_details">
+      <div class="last_footer pb-4">
+        <a href="#">EVENTS</a>
+        <a href="#">BOOKINGS</a>
+        <a href="#">RESERVATIONS</a>
+        <a href="#">LOCATIONS</a>
+        <a href="#"><i class="fas fa-map-marker-alt"></i></a>
+        <a href="#">FACEBOOK</a>
+        <a href="#">TWITTER</a>
+        <a href="#">BLOG</a>
+        <a href="#">ADVERTISE</a>
+      </div>
+      <div class="footer_last">
+        <div class="row">
+        <div class="subscribe col-sm-12 col-lg-4">
+          <p class="pr-2 text-light font-weight-bold text-uppercase">subscribe</p>
+           <div class="button_footer  d-flex justify-content-center">
+             <input type="text" class="bg-dark" placeholder="example@gmail.com"><br>
+             <button type="button">send</button>
+           </div>
+        </div>
+        <div class="contact col-sm-12 col-lg-4 pt-3">
+          <p class="pr-2 text-light font-weight-bold text-uppercase">contact</p>
+          <p class="text-light">Our Hotline numbers <br> +2543578654</p>
+        </div>
+        <div class="about col-sm-12 col-lg-4">
+          <p class="pr-2 font-weight-bold text-uppercase text-light">about</p>
+          <p class="text-light">Jacaranda Hotel headquarters is based in Nairobi <br> with its branches in different parts of the country</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </footer>
+  </main>
+</body>
+</html>
