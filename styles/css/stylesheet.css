@@ -9,8 +9,11 @@ header {
 }
 
 .nav_section {
-  background-color: #d35649;
   z-index: 10;
+}
+
+.nav_1 {
+  background-color: #d35649;
 }
 
 .nav_heading {
@@ -77,8 +80,9 @@ input {
 
 .main_j_info {
   position: absolute;
-  bottom: 40%;
-  left: 30%;
+  left: 50%;
+  bottom: 60%;
+  transform: translate(-50%, 50%);
 }
 
 .mainj_text p {
@@ -207,8 +211,16 @@ footer p span {
 }
 
 .form-2 input {
-  height: 50px;
-  width: 200px;
+  height: 30px;
+  width: 100px;
+}
+
+.form-2 button {
+  height: 30px;
+}
+
+.all-clear {
+  background-color: #e5ac5b;
 }
 
 .hotel_image img {
@@ -296,23 +308,19 @@ footer p span {
     height: 250px;
   }
 
-  .form-2 {
+  .form-filler {
     display: flex;
     flex-direction: column;
   }
 
-  .form-2 input {
-    width: 100%;
-  }
-
+  .form-2 input,
   .form-2 button {
     width: 100%;
   }
 
   .main_j_info {
     position: absolute;
-    bottom: 50%;
-    left: 30%;
+    bottom: 70%;
   }
 
   .search_holder {
@@ -328,8 +336,20 @@ footer p span {
 }
 
 @media screen and (max-width: 768px) {
+  header {
+    height: 100px;
+    width: 100%;
+  }
+
   .nav_heading {
     font-size: 2rem;
+  }
+
+  .main_j_info {
+    width: 100%;
+    position: absolute;
+    bottom: 25%;
+    transform: translate(-50%, -50%);
   }
 
   footer a {
@@ -381,12 +401,15 @@ footer p span {
   }
 
   .search_holder {
-    margin-top: 8px;
+    padding: 20px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .main_holder {
     display: flex;
     flex-direction: column;
-    padding: 10px;
-    border-radius: 0;
-    left: 5%;
   }
 
   .search_holder input {

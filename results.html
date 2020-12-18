@@ -50,14 +50,32 @@
       <main>
       <div class="jacaranda_body">
         <div class="register">
-        <form action="results.html" class="form-2 text_center p-5 mx-5">
-          <h1 class="font-weight-bold text-dark">Filter by location or type:</h1>
-           <label class="text-dark">LOCATION: </label>
-          <input type="text">
-          <label class="text-dark">TYPE</label>
+        <form action="results.html" class="form-2 p-5  mx-5">
+          <h1 class="font-weight-bold text-dark d-flex justify-content-center">Filter by hotel name, Location,Type, Road or Services</h1>
+          <div class="d-flex justify-content-center form-filler">
+          <div class="pr-3">
+          <label class="text-dark">HOTEL NAME*</label><br>
+          <input type="text"><br>
+          </div>
+          <div class="pr-3">
+           <label class="text-dark">LOCATION:</label><br>
+          <input type="text"><br>
+        </div>
+        <div class="pr-3">
+          <label class="text-dark">TYPE*</label><br>
           <input type="text" placeholder="3 star,5 star...">
+        </div>
+        <div class="pr-3">
+          <label class="text-dark">ROAD</label><br>
+          <input type="text"><br>
+        </div>
+        <div class="pr-3">
+          <label class="text-dark">SERVICES</label><br>
+          <input type="text">
           <button type="button" class="btn bg-primary text-light button_location">SEARCH</button>
-          <button type="button" class="btn bg-warning text-light button_location">CLEAR</button>
+          <button type="button" class="btn text-light button_location all-clear">CLEAR</button>
+        </div>
+      </div>
         </form>
       </div>
       <h3 class="d-flex justify-content-center search_head">Search results found 5 hotel(s)</h3>
