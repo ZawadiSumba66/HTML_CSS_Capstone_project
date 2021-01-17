@@ -8,7 +8,7 @@ The project is a hotel web app that entails the services offered, location of th
 
 The website is fully responsive with the help of three `media query` `breakpoints` (the default being the smaller viewport), namely: `< 768px`, `>= 768px`, `>= 1024px`, `>= 1280px`.
 
-![Screenshot of the Jacaranda Hotel Web app](images/Screenshot1.png)
+![Screenshot of the Jacaranda Hotel Web app](images\Screenshot1.png)
 
 ## Built With
 
