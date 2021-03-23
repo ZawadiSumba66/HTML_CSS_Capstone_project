@@ -1,4 +1,4 @@
-# HTML_CSS_Capstone_project
+# Jacaranda Hotel App
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
