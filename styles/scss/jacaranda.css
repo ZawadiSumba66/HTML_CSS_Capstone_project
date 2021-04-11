@@ -1,6 +1,6 @@
 /* home page */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -40,7 +40,7 @@ footer p {
 }
 
 footer a {
-  color: white;
+  color: #fff;
   padding-right: 30px;
 }
 
@@ -53,24 +53,15 @@ ul li {
 }
 
 footer a:hover {
-  color: rgb(223, 10, 53);
+  color: #df0a35;
 }
 
 .right_side {
   padding-right: 50px;
 }
 
-.jacaranda_body {
-  background-color: #f3f3f3;
-}
-
-.all_jacaranda {
-  border: 1px solid var(--gray-300);
-  height: auto;
-}
-
 label {
-  color: white;
+  color: #fff;
 }
 
 input {
@@ -91,14 +82,14 @@ input {
 
 .mainj_text h1 {
   font-size: 2rem;
-  color: white;
+  color: #fff;
 }
 
 .mainj_image img {
   width: 100%;
   height: 70vh;
   position: relative;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1));
+  background: linear-gradient(0deg, black, rgba(0, 0, 0, 0.1));
 }
 
 .search_holder {
@@ -120,31 +111,31 @@ input {
 }
 
 .search_holder button {
-  background-color: rgb(223, 10, 53);
-  color: white;
+  background-color: #df0a35;
+  color: #fff;
   height: 40px;
   border: none;
 }
 
 .service_1 {
-  padding: 50px 100px;
   background-color: #e27f65;
+  padding: 50px 100px;
   display: grid;
   grid-template-columns: 8fr 1fr;
 }
 
 .service_2 {
-  padding: 50px 100px;
   background-color: #98a4a5;
+  padding: 50px 100px;
   display: grid;
   grid-template-columns: 8fr 1fr;
 }
 
 .service_3 {
   padding: 50px 100px;
-  background-color: #519cd7;
   display: grid;
   grid-template-columns: 8fr 1fr;
+  background-color: #519cd7;
 }
 
 .services_main img {
@@ -161,7 +152,6 @@ footer {
   overflow: hidden;
   margin-top: 0;
 }
-
 footer p span {
   color: var(--gray-300);
 }
@@ -172,9 +162,8 @@ footer p span {
   border-radius: 20px;
   background-color: black;
 }
-
-.subscribe button {
-  background-color: white;
+.subscribe input button {
+  background-color: #fff;
   border: none;
   color: black;
   margin-top: 5px;
@@ -205,16 +194,13 @@ footer p span {
   background-color: var(--gray-300);
   color: black;
 }
-
 .form-2 h3 {
   font-size: 2rem;
 }
-
 .form-2 input {
   height: 30px;
   width: 100px;
 }
-
 .form-2 button {
   height: 30px;
 }
@@ -227,14 +213,13 @@ footer p span {
   width: 300px;
   height: 250px;
 }
+.hotel_image p {
+  line-height: 10px;
+}
 
 .j-head {
   font-weight: bold;
   font-size: 2rem;
-}
-
-.hotel_image p {
-  line-height: 10px;
 }
 
 /* details page */
@@ -250,7 +235,7 @@ footer p span {
 }
 
 .details_page {
-  color: white;
+  color: #fff;
 }
 
 .last_text {
@@ -260,7 +245,6 @@ footer p span {
 .form-1 label {
   color: black;
 }
-
 .form-1 input {
   background-color: var(--gray-300);
   border: none;
@@ -314,7 +298,7 @@ footer p span {
   }
 
   .form-2 input,
-  .form-2 button {
+.form-2 button {
     width: 100%;
   }
 
@@ -334,7 +318,6 @@ footer p span {
     border: 1px solid var(--gray-400);
   }
 }
-
 @media screen and (max-width: 768px) {
   header {
     height: 100px;
@@ -352,12 +335,6 @@ footer p span {
     transform: translate(-50%, -50%);
   }
 
-  footer a {
-    color: white;
-    padding-right: 5px;
-    font-size: 0.7rem;
-  }
-
   .right_side a {
     font-size: 1.5rem;
   }
@@ -366,20 +343,8 @@ footer p span {
     text-align: center;
   }
 
-  .service_1 {
+  .service_1, .service_2, .service_3 {
     grid-template-columns: 1fr;
-  }
-
-  .service_2 {
-    grid-template-columns: 1fr;
-  }
-
-  .service_3 {
-    grid-template-columns: 1fr;
-  }
-
-  footer p {
-    font-size: 0.7rem;
   }
 
   .mainj_text h1 {
@@ -406,15 +371,14 @@ footer p span {
     margin-right: 20px;
     margin-left: 20px;
   }
+  .search_holder input {
+    height: 30px;
+    width: 100%;
+  }
 
   .main_holder {
     display: flex;
     flex-direction: column;
-  }
-
-  .search_holder input {
-    height: 30px;
-    width: 100%;
   }
 
   .hotels_images {
@@ -428,7 +392,7 @@ footer p span {
   }
 
   .last_text p,
-  button {
+button {
     font-size: 0.8rem;
   }
 
@@ -440,6 +404,14 @@ footer p span {
   footer {
     padding: 5px;
     height: 70vh;
+  }
+  footer a {
+    color: #fff;
+    padding-right: 5px;
+    font-size: 0.7rem;
+  }
+  footer p {
+    font-size: 0.7rem;
   }
 
   .nav_1 {
@@ -469,4 +441,4 @@ footer p span {
   .contact {
     width: 100%;
   }
-}
+}/*# sourceMappingURL=jacaranda.css.map */
