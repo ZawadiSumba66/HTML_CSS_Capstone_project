@@ -1,5 +1,6 @@
 /* home page */
 $color-white : #fff;
+
 @mixin font-one {
   font-size: 1rem;
 }
@@ -7,468 +8,482 @@ $color-white : #fff;
 @mixin font-two {
   font-size: 2rem;
 }
+
 body {
   font-family: 'Roboto', sans-serif;
 }
-  
-  header {
-    height: 40px;
-    width: 100%;
+
+header {
+  height: 40px;
+  width: 100%;
+}
+
+.nav_section {
+  z-index: 10;
+}
+
+.nav_1 {
+  background-color: #d35649;
+}
+
+.nav_heading {
+  font-size: 1.2rem;
+}
+
+.find_us_header,
+p,
+h1 {
+  font-size: 1.5rem;
+}
+
+p,
+h1 {
+  @include font-one;
+}
+
+footer p {
+  font-size: 0.8rem;
+}
+
+.services p {
+  @include font-one;
+}
+
+footer a {
+  color: $color-white;
+  padding-right: 30px;
+}
+
+.left_side a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+footer a:hover {
+  color: rgb(223, 10, 53);
+}
+
+.right_side {
+  padding-right: 50px;
+}
+
+// .jacaranda_body {
+//   background-color: #f3f3f3;
+// }
+
+// .all_jacaranda {
+//   border: 1px solid var(--gray-300);
+//   height: auto;
+// }
+
+label {
+  color: $color-white;
+}
+
+input {
+  width: 400px;
+  height: 30px;
+}
+
+.main_j_info {
+  position: absolute;
+  left: 50%;
+  bottom: 60%;
+  transform: translate(-50%, 50%);
+}
+
+.mainj_text p {
+  @include font-one;
+}
+
+.mainj_text h1 {
+  @include font-two;
+
+  color: $color-white;
+}
+
+.mainj_image img {
+  width: 100%;
+  height: 70vh;
+  position: relative;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1));
+}
+
+.search_holder {
+  background-color: rgba(189, 189, 189, 0.8);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.search_holder input {
+  height: 40px;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.find_1 i {
+  @include font-two;
+}
+
+.search_holder button {
+  background-color: rgb(223, 10, 53);
+  color: $color-white;
+  height: 40px;
+  border: none;
+}
+
+@mixin services {
+  padding: 50px 100px;
+  display: grid;
+  grid-template-columns: 8fr 1fr;
+}
+
+.service_1 {
+  background-color: #e27f65;
+
+  @include services;
+}
+
+.service_2 {
+  background-color: #98a4a5;
+
+  @include services;
+}
+
+.service_3 {
+  @include services;
+
+  background-color: #519cd7;
+}
+
+.services_main img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+footer {
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  margin-top: 0;
+
+  p span {
+    color: var(--gray-300);
   }
-  
-  .nav_section {
-    z-index: 10;
+}
+
+.form-2 {
+  background-color: var(--gray-300);
+  color: black;
+
+  h3 {
+    @include font-two;
   }
-  
-  .nav_1 {
-    background-color: #d35649;
-  }
-  
-  .nav_heading {
-    font-size: 1.2rem;
-  }
-  
-  .find_us_header,
-  p,
-  h1 {
-    font-size: 1.5rem;
-  }
-  
-  p,
-  h1 {
-    @include font-one;
-  }
-  
-  footer p {
-    font-size: 0.8rem;
-  }
-  
-  .services p {
-    @include font-one;
-  }
-  
-  footer a {
-    color: $color-white;
-    padding-right: 30px;
-  }
-  
-  .left_side a {
-    text-decoration: none;
-  }
-  
-  ul li {
-    list-style: none;
-  }
-  
-  footer a:hover {
-    color: rgb(223, 10, 53);
-  }
-  
-  .right_side {
-    padding-right: 50px;
-  }
-  
-  // .jacaranda_body {
-  //   background-color: #f3f3f3;
-  // }
-  
-  // .all_jacaranda {
-  //   border: 1px solid var(--gray-300);
-  //   height: auto;
-  // }
-  
-  label {
-    color: $color-white;
-  }
-  
+
   input {
-    width: 400px;
+    height: 30px;
+    width: 100px;
+  }
+
+  button {
     height: 30px;
   }
-  
-  .main_j_info {
-    position: absolute;
-    left: 50%;
-    bottom: 60%;
-    transform: translate(-50%, 50%);
-  }
-  
-  .mainj_text p {
-    @include font-one;
-  }
-  
-  .mainj_text h1 {
-    @include font-two;
-    color: $color-white;
-  }
-  
-  .mainj_image img {
-    width: 100%;
-    height: 70vh;
-    position: relative;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1));
-  }
-  
-  .search_holder {
-    background-color: rgba(189, 189, 189, 0.8);
-    padding: 30px;
-    border-radius: 10px;
-  }
-  
-  .search_holder input {
-    height: 40px;
-  }
-  
-  .text_center {
-    text-align: center;
-  }
-  
-  .find_1 i {
-    @include font-two;
-  }
-  
-  .search_holder button {
-    background-color: rgb(223, 10, 53);
-    color: $color-white;
-    height: 40px;
+}
+
+.details_info button {
+  width: 300px;
+  border: 1px solid var(--gray-400);
+}
+
+.last_text button {
+  border: 1px solid var(--gray-400);
+  width: 70%;
+  margin: 1rem auto;
+}
+
+.subscribe input {
+  width: 200px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: black;
+
+  button {
+    background-color: $color-white;
     border: none;
-  }
-
-  @mixin services {
-    padding: 50px 100px;
-    display: grid;
-    grid-template-columns: 8fr 1fr;
-  }
-  
-  .service_1 {
-    background-color: #e27f65;
-    @include services;
-  }
-  
-  .service_2 {
-    background-color: #98a4a5;
-    @include services;
-  }
-  
-  .service_3 {
-    @include services;
-    background-color: #519cd7;
-  }
-  
-  .services_main img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-  }
-  
-  footer {
-    height: 50vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    overflow: hidden;
-    margin-top: 0;
-    p span {
-      color: var(--gray-300);
-    }
-  }
-  
-  .subscribe 
-    input {
-    width: 200px;
-    height: 30px;
-    border-radius: 20px;
-    background-color: black;
-    button {
-      background-color: $color-white;
-      border: none;
-      color: black;
-      margin-top: 5px;
-      width: 100px;
-    }
-  }
-  
-  
-  
-  .media_icons i {
-    font-size: 1.5rem;
-  }
-  
-  .last_footer {
-    font-size: 0.8rem;
-  }
-  
-  /* Search page */
-  .hotels_images {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
-  }
-  
-  .search_head {
-    @include font-two;
-    margin: 1rem 0;
-  }
-  
-  .form-2 {
-    background-color: var(--gray-300);
     color: black;
-    h3 {
-      @include font-two;
-    }
-    input {
-      height: 30px;
-      width: 100px;
-    }
-    button {
-      height: 30px;
-    } 
+    margin-top: 5px;
+    width: 100px;
   }
+}
 
-  .all-clear {
-    background-color: #e5ac5b;
-  }
-  
-  .hotel_image {
-   img {
+.media_icons i {
+  font-size: 1.5rem;
+}
+
+.last_footer {
+  font-size: 0.8rem;
+}
+
+/* Search page */
+.hotels_images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.search_head {
+  @include font-two;
+
+  margin: 1rem 0;
+}
+
+.all-clear {
+  background-color: #e5ac5b;
+}
+
+.hotel_image {
+  img {
     width: 300px;
     height: 250px;
-   }
-    p {
-      line-height: 10px;
-    }
   }
-  
-  .j-head {
-    font-weight: bold;
-    @include font-two;
+
+  p {
+    line-height: 10px;
   }
-  
-  
-  
-  /* details page */
-  .details_header {
-    color: #d35649;
-    font-weight: bold;
-    @include font-two;
-  }
-  
-  .details_info button {
-    width: 300px;
-    border: 1px solid var(--gray-400);
-  }
-  
-  .details_page {
-    color: $color-white;
-  }
-  
-  .last_text {
-    padding: 1rem;
-  }
-  
-  .form-1 {
-    label {
+}
+
+.j-head {
+  font-weight: bold;
+
+  @include font-two;
+}
+
+
+
+/* details page */
+.details_header {
+  color: #d35649;
+  font-weight: bold;
+
+  @include font-two;
+}
+
+.details_page {
+  color: $color-white;
+}
+
+.last_text {
+  padding: 1rem;
+}
+
+.form-1 {
+  label {
     color: black;
   }
+
   input {
     background-color: var(--gray-300);
     border: none;
     height: 50px;
   }
 }
-  
-  
-  .last_text button {
+
+@media screen and (max-width: 1024px) {
+  .mainj_image img {
+    width: 100%;
+    height: 50vh;
+  }
+
+  footer {
+    padding: 5px;
+    height: 80vh;
+  }
+
+  .mainj_text h1 {
+    font-size: 1.5rem;
+  }
+
+  input {
+    width: 200px;
+  }
+
+  .services_main img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .hotels_images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+
+  .hotel_image img {
+    width: 300px;
+    height: 250px;
+  }
+
+  .form-filler {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-2 input,
+  .form-2 button {
+    width: 100%;
+  }
+
+  .main_j_info {
+    position: absolute;
+    bottom: 70%;
+  }
+
+  .search_holder {
+    background-color: rgba(189, 189, 189, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+  }
+
+  .details_info button {
+    width: 250px;
     border: 1px solid var(--gray-400);
-    width: 70%;
-    margin: 1rem auto;
   }
-  
-  @media screen and (max-width: 1024px) {
-    .mainj_image img {
-      width: 100%;
-      height: 50vh;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    height: 100px;
+    width: 100%;
+  }
+
+  .nav_heading {
+    @include font-two;
+  }
+
+  .main_j_info {
+    width: 100%;
+    position: absolute;
+    bottom: 25%;
+    transform: translate(-50%, -50%);
+  }
+
+  footer {
+    padding: 5px;
+    height: 70vh;
+
+    a {
+      color: $color-white;
+      padding-right: 5px;
+      font-size: 0.7rem;
     }
-  
-    footer {
-      padding: 5px;
-      height: 80vh;
+
+    p {
+      font-size: 0.7rem;
     }
-  
-    .mainj_text h1 {
-      font-size: 1.5rem;
-    }
-  
+  }
+
+  .right_side a {
+    font-size: 1.5rem;
+  }
+
+  .service_text {
+    text-align: center;
+  }
+
+  .service_1,
+  .service_2,
+  .service_3 {
+    grid-template-columns: 1fr;
+  }
+
+  .mainj_text h1 {
+    font-size: 1rem;
+  }
+
+  .mainj_image img {
+    width: 100%;
+    height: 50vh;
+  }
+
+  .j-head {
+    font-size: 1.5rem;
+  }
+
+  .details_1 img {
+    width: 300px;
+    height: 200px;
+  }
+
+  .search_holder {
+    padding: 20px 20px;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+
     input {
-      width: 200px;
-    }
-  
-    .services_main img {
-      width: 200px;
-      height: 200px;
-    }
-  
-    .hotels_images {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-gap: 10px;
-    }
-  
-    .hotel_image img {
-      width: 300px;
-      height: 250px;
-    }
-  
-    .form-filler {
-      display: flex;
-      flex-direction: column;
-    }
-  
-    .form-2 input,
-    .form-2 button {
-      width: 100%;
-    }
-  
-    .main_j_info {
-      position: absolute;
-      bottom: 70%;
-    }
-  
-    .search_holder {
-      background-color: rgba(189, 189, 189, 0.8);
-      padding: 30px;
-      border-radius: 10px;
-    }
-  
-    .details_info button {
-      width: 250px;
-      border: 1px solid var(--gray-400);
-    }
-  }
-  
-  @media screen and (max-width: 768px) {
-    header {
-      height: 100px;
-      width: 100%;
-    }
-  
-    .nav_heading {
-      @include font-two;
-    }
-  
-    .main_j_info {
-      width: 100%;
-      position: absolute;
-      bottom: 25%;
-      transform: translate(-50%, -50%);
-    }
-
-    .right_side a {
-      font-size: 1.5rem;
-    }
-  
-    .service_text {
-      text-align: center;
-    }
-  
-    .service_1, .service_2, .service_3{
-      grid-template-columns: 1fr;
-    }
-
-    .mainj_text h1 {
-      font-size: 1rem;
-    }
-  
-    .mainj_image img {
-      width: 100%;
-      height: 50vh;
-    }
-  
-    .j-head {
-      font-size: 1.5rem;
-    }
-  
-    .details_1 img {
-      width: 300px;
-      height: 200px;
-    }
-  
-    .search_holder {
-      padding: 20px 20px;
-      border-radius: 5px;
-      margin-right: 20px;
-      margin-left: 20px;
-
-      input {
-        height: 30px;
-        width: 100%;
-      }  
-    }
-  
-    .main_holder {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .hotels_images {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-gap: 10px;
-    }
-  
-    .services_main img {
-      margin: 0.5rem auto;
-    }
-  
-    .last_text p,
-    button {
-      font-size: 0.8rem;
-    }
-  
-    .search_holder button {
-      width: 100%;
       height: 30px;
-    }
-  
-    footer {
-      padding: 5px;
-      height: 70vh;
-      a {
-        color: $color-white;
-        padding-right: 5px;
-        font-size: 0.7rem;
-      }
-      p {
-        font-size: 0.7rem;
-      }
-    }
-  
-    .nav_1 {
-      display: flex;
-      flex-direction: column;
-    }
-  
-    .button_location {
-      width: 70%;
-      height: 30px;
-      margin-top: 10px;
-    }
-  
-    .details_info button {
-      width: 100%;
-      border: 1px solid var(--gray-400);
-    }
-  
-    .form-1 input {
-      height: 30px;
-    }
-  
-    .subscribe button {
-      width: 100px;
-    }
-  
-    .contact {
       width: 100%;
     }
   }
-  
+
+  .main_holder {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hotels_images {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+
+  .services_main img {
+    margin: 0.5rem auto;
+  }
+
+  .last_text p,
+  button {
+    font-size: 0.8rem;
+  }
+
+  .search_holder button {
+    width: 100%;
+    height: 30px;
+  }
+
+  .nav_1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .button_location {
+    width: 70%;
+    height: 30px;
+    margin-top: 10px;
+  }
+
+  .details_info button {
+    width: 100%;
+    border: 1px solid var(--gray-400);
+  }
+
+  .form-1 input {
+    height: 30px;
+  }
+
+  .subscribe button {
+    width: 100px;
+  }
+
+  .contact {
+    width: 100%;
+  }
+}

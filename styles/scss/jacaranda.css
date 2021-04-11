@@ -152,8 +152,38 @@ footer {
   overflow: hidden;
   margin-top: 0;
 }
+
 footer p span {
   color: var(--gray-300);
+}
+
+.form-2 {
+  background-color: var(--gray-300);
+  color: black;
+}
+
+.form-2 h3 {
+  font-size: 2rem;
+}
+
+.form-2 input {
+  height: 30px;
+  width: 100px;
+}
+
+.form-2 button {
+  height: 30px;
+}
+
+.details_info button {
+  width: 300px;
+  border: 1px solid var(--gray-400);
+}
+
+.last_text button {
+  border: 1px solid var(--gray-400);
+  width: 70%;
+  margin: 1rem auto;
 }
 
 .subscribe input {
@@ -162,6 +192,7 @@ footer p span {
   border-radius: 20px;
   background-color: black;
 }
+
 .subscribe input button {
   background-color: #fff;
   border: none;
@@ -190,21 +221,6 @@ footer p span {
   margin: 1rem 0;
 }
 
-.form-2 {
-  background-color: var(--gray-300);
-  color: black;
-}
-.form-2 h3 {
-  font-size: 2rem;
-}
-.form-2 input {
-  height: 30px;
-  width: 100px;
-}
-.form-2 button {
-  height: 30px;
-}
-
 .all-clear {
   background-color: #e5ac5b;
 }
@@ -213,6 +229,7 @@ footer p span {
   width: 300px;
   height: 250px;
 }
+
 .hotel_image p {
   line-height: 10px;
 }
@@ -229,11 +246,6 @@ footer p span {
   font-size: 2rem;
 }
 
-.details_info button {
-  width: 300px;
-  border: 1px solid var(--gray-400);
-}
-
 .details_page {
   color: #fff;
 }
@@ -245,16 +257,11 @@ footer p span {
 .form-1 label {
   color: black;
 }
+
 .form-1 input {
   background-color: var(--gray-300);
   border: none;
   height: 50px;
-}
-
-.last_text button {
-  border: 1px solid var(--gray-400);
-  width: 70%;
-  margin: 1rem auto;
 }
 
 @media screen and (max-width: 1024px) {
@@ -298,7 +305,7 @@ footer p span {
   }
 
   .form-2 input,
-.form-2 button {
+  .form-2 button {
     width: 100%;
   }
 
@@ -318,6 +325,7 @@ footer p span {
     border: 1px solid var(--gray-400);
   }
 }
+
 @media screen and (max-width: 768px) {
   header {
     height: 100px;
@@ -335,6 +343,21 @@ footer p span {
     transform: translate(-50%, -50%);
   }
 
+  footer {
+    padding: 5px;
+    height: 70vh;
+  }
+
+  footer a {
+    color: #fff;
+    padding-right: 5px;
+    font-size: 0.7rem;
+  }
+
+  footer p {
+    font-size: 0.7rem;
+  }
+
   .right_side a {
     font-size: 1.5rem;
   }
@@ -343,7 +366,9 @@ footer p span {
     text-align: center;
   }
 
-  .service_1, .service_2, .service_3 {
+  .service_1,
+  .service_2,
+  .service_3 {
     grid-template-columns: 1fr;
   }
 
@@ -371,6 +396,7 @@ footer p span {
     margin-right: 20px;
     margin-left: 20px;
   }
+
   .search_holder input {
     height: 30px;
     width: 100%;
@@ -392,26 +418,13 @@ footer p span {
   }
 
   .last_text p,
-button {
+  button {
     font-size: 0.8rem;
   }
 
   .search_holder button {
     width: 100%;
     height: 30px;
-  }
-
-  footer {
-    padding: 5px;
-    height: 70vh;
-  }
-  footer a {
-    color: #fff;
-    padding-right: 5px;
-    font-size: 0.7rem;
-  }
-  footer p {
-    font-size: 0.7rem;
   }
 
   .nav_1 {
@@ -441,4 +454,4 @@ button {
   .contact {
     width: 100%;
   }
-}/*# sourceMappingURL=jacaranda.css.map */
+}
